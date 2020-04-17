@@ -1,4 +1,4 @@
-#Project Description
+# Project Description
 
 Assignment 1 - This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MSQL.
 
