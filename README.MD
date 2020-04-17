@@ -8,3 +8,5 @@ Assignment 2 - Setup a BootStrpa HTML Template using Flask Templates and use it 
 ![postman request output](screenshots/StefanDeRosaDatabase.png)
 # Localhost Screenshot
 ![postman request output](screenshots/StefanDeRosaLocalHost.png)
+# Bootstrap Screenshot
+![postman request output](screenshots/StefanDeRosaBootstrap.PNG)
