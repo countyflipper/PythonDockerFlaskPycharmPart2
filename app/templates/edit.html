@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/edit/{{mlb.id}}" method="post">
+    <div class="row">
+        <div class="col">
+            <label for="fldName">Name</label>
+            <input id="fldName" type="text" class="form-control" placeholder="Players Name" name="fldName" value="{{mlb.fldName}}">
+        </div>
+        <div class="col">
+            <label for="fldTeam">Team</label>
+            <input id="fldTeam" type="text" class="form-control" placeholder="mlb Team"
+                   name="fldTeam" value="{{mlb.fldTeam}}">
+        </div>
+        <div class="col">
+            <label for="fldPosition">Position</label>
+            <input id="fldPosition" type="text" class="form-control" placeholder="mlb Position" name="fldPosition" value="{{mlb.fldPosition}}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <label for="fldHeight_inches">Height</label>
+            <input id="fldHeight_inches" type="text" class="form-control" placeholder="mlb Latitude" name="fldHeight_inches" value="{{mlb.fldHeight_inches}}">
+        </div>
+        <div class="col">
+            <label for="fldWeight_lbs">Weight</label>
+            <input id="fldWeight_lbs" type="text" class="form-control" placeholder="mlb fldWeight_lbs" name="fldWeight_lbs" value="{{mlb.fldWeight_lbs}}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="fldAge">Age</label>
+
+            <input id="fldAge" type="text" class="form-control" placeholder="Capital Status"
+                   name="fldAge" value="{{mlb.fldAge}}">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+
+</form>
+{% endblock %}
+
