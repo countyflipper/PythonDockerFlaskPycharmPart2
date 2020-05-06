@@ -1,15 +1,17 @@
 # Project Description
-Assignment 1 - This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MSQL.
+Assignment 3 - The goal of this assignment is to create a full website to import you own data, and add the following functionality: Create/Add, Edit/Update, Delete, and view.
 
-Assignment 2 - Setup a BootStrpa HTML Template using Flask Templates and use it to display data retrieved from your database.
-
-# Postman Screenshot
-![postman request output](screenshots/StefanDeRosaPostman.png)
-# Database Screenshot
-![postman request output](screenshots/StefanDeRosaDatabase.png)
-# Localhost Screenshot
-![postman request output](screenshots/StefanDeRosaLocalHost.png)
-# Bootstrap Screenshot
-![postman request output](screenshots/StefanDeRosaBootstrap.PNG)
-# Postman Bootstrap Screenshot
-![postman request output](screenshots/StefanDeRosaBootstrapPostman.PNG)
+# Pycharm Table Screenshot
+![postman request output](screenshots/tableMLB.PNG)
+# Homepage Screenshot
+![postman request output](screenshots/HomepageMLB.PNG)
+# View Record
+![postman request output](screenshots/ViewProfileMLB.PNG)
+# Add New Record Part 1
+![postman request output](screenshots/AddNewPlayerMLB.PNG)
+# Add New Record Part 2
+![postman request output](screenshots/AddNewPlayer2MLB.PNG)
+# Update Record
+![postman request output](screenshots/UpdatedRecordMLB.PNG)
+# Delete Record
+![postman request output](screenshots/DeleteRecordMLB.PNG)

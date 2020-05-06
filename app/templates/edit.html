@@ -1,7 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
 <form action="/edit/{{mlb.id}}" method="post">
+                   <div class="card-body">
+            <h2 class="card-title">Edit Player's Profile</h2>
+    </div>
     <div class="row">
+
         <div class="col">
             <label for="fldName">Name</label>
             <input id="fldName" type="text" class="form-control" placeholder="Players Name" name="fldName" value="{{mlb.fldName}}">

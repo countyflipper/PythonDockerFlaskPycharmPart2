@@ -55,7 +55,7 @@ def form_update_post(mlb_id):
 
 @app.route('/mlb/new', methods=['GET'])
 def form_insert_get():
-    return render_template('new.html', title='New mlb Form')
+    return render_template('new.html', title='New MLB Form')
 
 
 @app.route('/mlb/new', methods=['POST'])
