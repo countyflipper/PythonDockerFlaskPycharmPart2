@@ -7,14 +7,14 @@ Assignment 4 - The goal of this assignment is to create a full website and to ut
 4. Delete
 
 # Postman - Get All Records
-![postman request output](screenshotsLesson4/PostmanAllRecords.PNG)
+![postman request output](screenshotLesson4/PostmanAllRecords.PNG)
 # Get One Record
-![postman request output](screenshotsLesson4/PostmanOneRecord.PNG)
+![postman request output](screenshotLesson4/PostmanOneRecord.PNG)
 # Post Request 1
-![postman request output](screenshotsLesson4/PostRequest.PNG)
+![postman request output](screenshotLesson4/PostRequest.PNG)
 # Post Request 2
-![postman request output](screenshotsLesson4/PostRequest2.PNG)
+![postman request output](screenshotLesson4/PostRequest2.PNG)
 # Put Request
-![postman request output](screenshotsLesson4/PutRequest.PNG)
+![postman request output](screenshotLesson4/PutRequest.PNG)
 # Delete Request
-![postman request output](screenshotsLesson4/DeleteRequest.PNG)
+![postman request output](screenshotLesson4/DeleteRequest.PNG)
