@@ -11,7 +11,9 @@ Assignment 3 - The goal of this assignment is to create a full website to import
 ![postman request output](screenshots/AddNewPlayerMLB.PNG)
 # Add New Record Part 2
 ![postman request output](screenshots/AddNewPlayer2MLB.PNG)
-# Update Record
+# Update Record 1
+![postman request output](screenshots/UpdatedRecord2MLB.PNG)
+# Update Record 2
 ![postman request output](screenshots/UpdatedRecordMLB.PNG)
 # Delete Record
 ![postman request output](screenshots/DeleteRecordMLB.PNG)
