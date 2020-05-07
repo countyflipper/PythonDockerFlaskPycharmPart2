@@ -136,7 +136,5 @@ def api_delete(mlb_id) -> str:
     resp = Response(status=200, mimetype='application/json')
     return resp
 
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

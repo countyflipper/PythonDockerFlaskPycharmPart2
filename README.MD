@@ -1,5 +1,5 @@
 # Project Description
-Assignment 4 - The goal of this assignment is to create a full website and utilize Postman and the following request:
+Assignment 4 - The goal of this assignment is to create a full website and to utilize Postman and the following request:
 
 1. Get - Read
 2. Post - Insert
@@ -7,14 +7,14 @@ Assignment 4 - The goal of this assignment is to create a full website and utili
 4. Delete
 
 # Postman - Get All Records
-![postman request output](screenshots/PostmanAllRecords.PNG)
+![postman request output](screenshotsLesson4/PostmanAllRecords.PNG)
 # Get One Record
-![postman request output](screenshots/PostmanOneRecord.PNG)
+![postman request output](screenshotsLesson4/PostmanOneRecord.PNG)
 # Post Request 1
-![postman request output](screenshots/PostRequest.PNG)
+![postman request output](screenshotsLesson4/PostRequest.PNG)
 # Post Request 2
-![postman request output](screenshots/PostRequest2.PNG)
+![postman request output](screenshotsLesson4/PostRequest2.PNG)
 # Put Request
-![postman request output](screenshots/PutRequest.PNG)
+![postman request output](screenshotsLesson4/PutRequest.PNG)
 # Delete Request
-![postman request output](screenshots/DeleteRequest.PNG)
+![postman request output](screenshotsLesson4/DeleteRequest.PNG)
