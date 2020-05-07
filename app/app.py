@@ -87,7 +87,6 @@ def api_browse() -> str:
     resp = Response(json_result, status=200, mimetype='application/json')
     return resp
 
-
 @app.route('/api/v1/mlb/<int:mlb_id>', methods=['GET'])
 def api_retrieve(mlb_id) -> str:
     cursor = mysql.get_db().cursor()
@@ -97,45 +96,22 @@ def api_retrieve(mlb_id) -> str:
     resp = Response(json_result, status=200, mimetype='application/json')
     return resp
 
-
-@app.route('/api/v1/mlb/<int:mlb_id>', methods=['PUT'])
-def api_edit(mlb_id) -> str:
-    cursor = mysql.get_db().cursor()
-    content = request.json
-    inputData = (content['fldName'], content['fldTeam'], content['fldPosition'],
-                 content['fldHeight_inches'], content['fldWeight_lbs'],
-                 content['fldAge'],mlb_id)
-    sql_update_query = """UPDATE tblMLB t SET t.fldName = %s, t.fldTeam = %s, t.fldPosition = %s, t.fldHeight_inches = 
-        %s, t.fldWeight_lbs = %s, t.fldAge = %s WHERE t.id = %s """
-    cursor.execute(sql_update_query, inputData)
-    mysql.get_db().commit()
-    resp = Response(status=200, mimetype='application/json')
-    return resp
-
-@app.route('/api/v1/mlb', methods=['POST'])
+@app.route('/api/v1/mlb/', methods=['POST'])
 def api_add() -> str:
-
-    content = request.json
-
-    cursor = mysql.get_db().cursor()
-    inputData = (content['fldName'], content['fldTeam'], content['fldPosition'],
-                 content['fldHeight_inches'], content['fldWeight_lbs'],
-                 content['fldAge'])
-    sql_insert_query = """INSERT INTO tblMLB (fldName,fldTeam,fldPosition,fldHeight_inches,fldWeight_lbs,fldAge) VALUES (%s, %s,%s, %s, %s,%s) """
-    cursor.execute(sql_insert_query, inputData)
-    mysql.get_db().commit()
     resp = Response(status=201, mimetype='application/json')
     return resp
 
-@app.route('/api/v1/mlb/<int:mlb_id>', methods=['DELETE'])
-def api_delete(mlb_id) -> str:
-    cursor = mysql.get_db().cursor()
-    sql_delete_query = """DELETE FROM tblMLB WHERE id = %s """
-    cursor.execute(sql_delete_query, mlb_id)
-    mysql.get_db().commit()
-    resp = Response(status=200, mimetype='application/json')
+
+@app.route('/api/v1/mlb/<int:mlb_id>', methods=['PUT'])
+def api_edit(mlb_id) -> str:
+    resp = Response(status=201, mimetype='application/json')
     return resp
 
+
+@app.route('/api/mlb/<int:mlb_id>', methods=['DELETE'])
+def api_delete(mlb_id) -> str:
+    resp = Response(status=210, mimetype='application/json')
+    return resp
 
 
 if __name__ == '__main__':
