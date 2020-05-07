@@ -1,17 +1,20 @@
 # Project Description
-Assignment 3 - The goal of this assignment is to create a full website to import you own data, and add the following functionality: Create/Add, Edit/Update, Delete, and view.
+Assignment 4 - The goal of this assignment is to create a full website and utilize Postman and the following request:
 
-# Pycharm Table Screenshot
-![postman request output](screenshots/tableMLB.PNG)
-# Homepage Screenshot
-![postman request output](screenshots/HomepageMLB.PNG)
-# View Record
-![postman request output](screenshots/ViewProfileMLB.PNG)
-# Add New Record Part 1
-![postman request output](screenshots/AddNewPlayerMLB.PNG)
-# Add New Record Part 2
-![postman request output](screenshots/AddNewPlayer2MLB.PNG)
-# Update Record
-![postman request output](screenshots/UpdatedRecordMLB.PNG)
-# Delete Record
-![postman request output](screenshots/DeleteRecordMLB.PNG)
+1. Get - Read
+2. Post - Insert
+3. Push - Update
+4. Delete
+
+# Postman - Get All Records
+![postman request output](screenshots/PostmanAllRecords.PNG)
+# Get One Record
+![postman request output](screenshots/PostmanOneRecord.PNG)
+# Post Request 1
+![postman request output](screenshots/PostRequest.PNG)
+# Post Request 2
+![postman request output](screenshots/PostRequest2.PNG)
+# Put Request
+![postman request output](screenshots/PutRequest.PNG)
+# Delete Request
+![postman request output](screenshots/DeleteRequest.PNG)
